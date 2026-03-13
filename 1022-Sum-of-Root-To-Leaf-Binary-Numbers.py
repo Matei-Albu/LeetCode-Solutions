@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
-        def sum_root(node, current ):
+        def sum_root(node, current )
             if not node:
                 return 0
             
