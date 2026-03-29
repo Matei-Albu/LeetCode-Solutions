@@ -6,7 +6,7 @@
 # def guess(num: int) -> int:
 
 class Solution:
-    def guessNumber(self, n: int) -> int
+    def guessNumber(self, n: int) -> int:
         low, high = 0, n
         while low < high:
             mid = low + (high - low)//2
